@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: gerenciador-reposGithub-2
+  sql:
+    init:
+      mode: always
+  jpa:
+    hibernate:
+      ddl-auto: create-drop 
+    show-sql: true  
+  datasource:
+    url: jdbc:mysql://localhost:3306/bd_trabalhoboeres_otimizacaobandeco
+    username: root
+    password: p310j0a0fHa1708F
+    driver-class-name: com.mysql.cj.jdbc.Driver  
+

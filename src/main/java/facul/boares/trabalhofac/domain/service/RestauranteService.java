@@ -5,9 +5,10 @@ import org.springframework.stereotype.Service;
 import facul.boares.trabalhofac.api.assembler.RestauranteAssembler;
 import facul.boares.trabalhofac.api.model.input.AddRestauranteDTO;
 import facul.boares.trabalhofac.api.model.output.ViewRestauranteDTO;
+import facul.boares.trabalhofac.domain.exception.PropertyNotFoundException;
 import facul.boares.trabalhofac.domain.model.Restaurante;
 import facul.boares.trabalhofac.domain.repository.RestauranteRepository;
-import jakarta.el.PropertyNotFoundException;
+
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

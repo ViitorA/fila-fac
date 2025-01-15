@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import facul.boares.trabalhofac.api.model.input.CreateSenhaDTO;
 import facul.boares.trabalhofac.api.model.input.GerarSenhaDTO;
+import facul.boares.trabalhofac.domain.exception.PropertyNotFoundException;
 import facul.boares.trabalhofac.domain.repository.RestauranteRepository;
 
 import facul.boares.trabalhofac.domain.service.SenhaService;
-import jakarta.el.PropertyNotFoundException;
+
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 import facul.boares.trabalhofac.api.model.input.AddRestauranteDTO;
 import facul.boares.trabalhofac.api.model.input.CreateSenhaDTO;
 import facul.boares.trabalhofac.api.model.input.GerarSenhaDTO;
+import facul.boares.trabalhofac.domain.exception.PropertyNotFoundException;
 import facul.boares.trabalhofac.domain.repository.RestauranteRepository;
 import facul.boares.trabalhofac.domain.repository.SenhaRepository;
 import facul.boares.trabalhofac.domain.service.RestauranteService;
 import facul.boares.trabalhofac.domain.service.SenhaService;
-import jakarta.el.PropertyNotFoundException;
+
 
 @RestController
 @RequestMapping("/restaurante")

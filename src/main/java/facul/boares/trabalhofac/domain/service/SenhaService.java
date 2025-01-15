@@ -5,9 +5,10 @@ import org.springframework.stereotype.Service;
 import facul.boares.trabalhofac.api.assembler.SenhaAssembler;
 import facul.boares.trabalhofac.api.model.input.CreateSenhaDTO;
 import facul.boares.trabalhofac.api.model.output.ViewSenhaDTO;
+import facul.boares.trabalhofac.domain.exception.PropertyNotFoundException;
 import facul.boares.trabalhofac.domain.model.Senha;
 import facul.boares.trabalhofac.domain.repository.SenhaRepository;
-import jakarta.el.PropertyNotFoundException;
+
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

@@ -11,6 +11,6 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/bd_trabalhoboeres_otimizacaobandeco
     username: root
-    password: p310j0a0fHa1708F
+    password: 
     driver-class-name: com.mysql.cj.jdbc.Driver  
 
